@@ -1,0 +1,25 @@
+.navbar {
+    background-color: rgb(0, 251, 250);
+    padding: 15px ;
+    display: flex ;
+    justify-content: space-evenly ;
+}
+
+.navbar a {
+    color: rgb(23, 23, 23);
+    font-size: larger;
+    text-decoration: none;
+    }
+    
+    .navbar a:hover{
+        color: #F8EFE4;
+        }
+
+        .mainPageContainer{
+            color: #F8EFE4;
+            }
+
+            body{
+                margin: 5px;
+                background-color: #F8EFE4;
+     }           
