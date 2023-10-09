@@ -50,11 +50,22 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Login
+         </button>
         </div>
       </nav>
       <div class="navbar">
       <div class=" navlinks">
+        <li class="hello">
         <a href="">Rifles</a>
+<ul class="rifle-menu" aria-labelledby="navbarrifledown">
+  <li><a class="dropdown-item" href="#">Action</a></li>
+  <li><a class="dropdown-item" href="#">Another action</a></li>
+  <li><hr class="dropdown-divider"></li>
+  <li><a class="dropdown-item" href="#">Something else here</a></li>
+</ul>
+      </li>
         <a href="">Pistols</a>
         <a href="">Ammo</a>
         <a href="">Accessories</a>
@@ -85,23 +96,52 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div>
+      <div class="cards">
       <div class="card" style="width: 18rem;">
-        <img src="https://eu.novritsch.com/wp-content/uploads/2023/02/Viper-e1670421748164-1.jpg" class="card-img-top" alt="...">
+        <img src="https://eu.novritsch.com/wp-content/uploads/2022/04/email-capture-2-d-mobile.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://eu.novritsch.com/wp-content/uploads/2022/04/platecarrier_dot_front-Shopped-600x600.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://support.novritsch.com/wp-content/uploads/2022/02/how-to-start-s-4-1024x614.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Sing in</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          
         </div>
       </div>
     </div>

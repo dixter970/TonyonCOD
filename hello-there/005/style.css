@@ -27,3 +27,9 @@ margin-left: 15px;
         .navbar a:hover{
             color: red;
         }
+        .cards{
+    justify-content: space-evenly;
+    display: flex;
+text-align: center;
+margin-top:  20px;
+        }
