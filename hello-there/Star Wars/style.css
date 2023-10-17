@@ -1,0 +1,102 @@
+.navlinks {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.caroptions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.cards {
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hello {
+    justify-content: center;
+}
+
+.footers {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+.footertext{
+    display: flex;
+justify-content: space-evenly;
+text-align: center;
+
+}
+.videoss{
+display: flex;
+justify-content: center;
+
+}
+.socialmedia{
+justify-content: space-evenly;
+display: flex;
+
+}
+.menu{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+
+    flex-direction: row;
+
+
+
+  }
+
+  .menu{
+
+    border: 2px;
+
+    border-color: rgb(0, 0, 0);
+
+    border-width: 2px;
+
+    border-radius: 7px;
+
+  }
+
+ 
+
+  .videos {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
