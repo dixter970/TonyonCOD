@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://seeklogo.com/images/S/star_wars_the_clone_wars-logo-887EB69893-seeklogo.com.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: black !important;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="https://seeklogo.com/images/S/star_wars_the_clone_wars-logo-887EB69893-seeklogo.com.png"
+                    height="100" width="auto" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+            </button>
+        </div>
+    </nav>
+
+    <div class="navbar">
+        <div class=" navlinks">
+            <li class="hello">
+                <a href="">NEW + FEATURES</a>
+                <a href="">VIDEOS</a>
+                <a href="">FILMS</a>
+                <a href="">SERIES</a>
+                <a href="">INTERACTIVE</a>
+                <a href="">DATABANK</a>
+                <a href="">DISNEY+</a>
+        </div>
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.thedirect.com/media/article_full/star-wars-clone-wars-order.jpg"
+                    class="d-block w-100" alt="..." height="auto" width="300">
+            </div>
+            <div class="carousel-item">
+                <img src="https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2020/02/13053841/Bad-Batch-Bros.png"
+                    class="d-block w-100" alt="..." height="auto" width="300">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.thedirect.com/media/article_full/8C3192F0-A240-453A-A075-E57FF9079304.jpg"
+                    class="d-block w-100" alt="..." height="auto" width="300">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="videoss">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLW2jkd6E7g?si=tZTzqe-cQ663LBM2"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J_1EXWNETiI?si=lhB8NCYSo6yG7WmI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lp5y-BeBq6g?si=0ss-bLId9K_PAUu7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sing in</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <a href="https://www.youtube.com/watch?v=5mUyexv8dDQ" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Star_wars_the_clone_wars.jpg/220px-Star_wars_the_clone_wars.jpg"
+                    alt=" " height="200" width="auto">
+                <h4> StarWars season 1 </h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=nn95R5-6p8k" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://m.media-amazon.com/images/I/91Bcr2uyzIL._AC_UF894,1000_QL80_.jpg" alt="" height="200"
+                    width="auto">
+                <h4>StarWars season 2</h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Xvyx3vUoOBw" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://preview.redd.it/lersd4gr3mo91.jpg?auto=webp&s=62eb27254ff750bb203b450e7a908987daec6708"
+                    alt=" " height="200" width="auto">
+                <h4>StarWars season 3</h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=SsMtcKQmTYE" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://i.pinimg.com/originals/9a/83/0e/9a830ef94fde1c41a7ccf6226de463d8.jpg" alt=""
+                    height="200" width="auto">
+                <h4>StarWars season 4</h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=SZ4w31eez3w" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://m.media-amazon.com/images/I/91W3hlzZwlL._AC_UF894,1000_QL80_.jpg" alt=" " height="200"
+                    width="auto">
+                <h4>StarWars season 5</h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=SZ4w31eez3w" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://i.pinimg.com/1200x/df/0d/6a/df0d6a4db1a1db61ae2c9174c87140d0.jpg" alt="" height="200"
+                    width="auto">
+                <h4>StarWars season 6</h4>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=ZLW2jkd6E7g" style="text-decoration: none; color: black;">
+            <div>
+                <img src="https://m.media-amazon.com/images/I/71SNveC9CdL._AC_UF1000,1000_QL80_.jpg"
+                    alt=" " height="200" width="auto">
+                <h4>StarWars season 7</h4>
+            </div>
+        </a>
+
+    </div>
+
+
+    <div class="footers">
+        <footer>
+            <p>More From Star Wars:</p>
+        </footer>
+    </div>
+    <footer>
+        <div>
+            <div class="footerContainer">
+                <div class="social" style=" text-align: center; padding-top: 20px; vertical-align: middle; ">
+                    <a href=""><img src="data:image/png;base64,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" width="25px" height="auto"></a>
+                    <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEUAAAD////t7e36+vrV1dXMzMxJSUn39/fc3Nz8/PzIyMiAgIDg4OBfX1/y8vJsbGwvLy9OTk6ZmZm8vLzCwsKMjIyoqKjn5+eysrI8PDwdHR0KCgpBQUEkJCQ0NDSgoKB3d3eGhoYXFxdoaGiUlJQQEBAhISFVVVWtra2Dg4NycnJhYWEHfIKAAAALWUlEQVR4nO2d63qqOhCGETmIKCqoaK2CltYue//3txAFgZwnsZg+fL/27mrjvJJMkslMMAZ/XUbXBjxdPaH+6gn1V0+ov3pC/dUT6q+eUH/1hPqrJ9RfPaH+6gn1V0+ov3pC/dUT6q+eUH8pJ3RNqT83XUV2VFJIGFjL7OM8N2yJNmxj7kzTb3uizCpVhKPNZW/ctZBoZ1E28umEy6ES0+QJvUnyYTQEf4h2s6Htyg6k7ZMkdMf+wWjLATfnIG3tZpHcwJYjHF/eEJOuWgLbW2JbM6aRTH+FE458vD1OaEMNGo6zLb7RGbznAwmDNdYUZ2XLentzeUH7fa55AuytIEL845uuY5gNbQ1H2TvuA9IRpDUAoXXGfPr7t9qpOg73mE9ZWOItCRMuMX1on/A+PW84HHqcvzs6YvzYQdiLCRIuMd3nY0z+fTeejJabcOWnl9ki13a/32+v/zG7pP4q3CxHk5j88L1oiuktgoxChGMM3wr/+FxrvE7PzhzT1dqaO+d0PbbwoPER/YOFkGMVIJxgxl+CscuMkiluELG0nya42X2Y7JBfPQv4NG5CM0U+5ytpD6nAzn4AbHX9ZOhK7RvtCv+4l3O8hGvUltbzM+0jzslCdD7azYfpbU7t3zltlBJa6AD0GzaMEgftSzLaOUlj9nND5FcWfFssHkIPneAX9YFgYbyBEh3r019wQf59pYjQRtzG26OHeBZu1lKmt6P1GOs2slKcc6wA2IToA0qrUT7KsGtIpTpkVW/00K7KfowswhhdYZezkbdBt3PPkbMpH+QEMWfLWpAzCEfIp13uWyPS5ulJ8ku/s0L+ibEeZxAiPvQ2Ar1I1cTAr3N0e5B2e+JghBTohO1ZcFu40CDkWYyp1zwsHEDQ/nbXcEK31ZR//aH5rLmBR8di1GWtn1I3blTCtNnQd/6jCTor/a4uV8/aCuikUMKmm3nL5x6rFTfsRB+5IaPmHE1zNjTCxiJ6GwzshfEayrdPbmOm+oERNsKzF9zatDu9W4PGcKHsGCmE9SeWYYMzXeps1f0N5SSBTDh+/P1uJrvre4Z+ZrX/IUdSyIS1OW+ndmekSnWz5uKEUXeWgxQJE/7WqlqViGs3EqHNbvPFRHKnJMJXc51sncUIra7tBYiw3ycQvsLqTFQzEUKza2tBwu/28YRdbpDgOvITtveFugi7T8QSYgLcWgi72ccSEg7TX15bXsIxu60XFW79jSOcsZt6UeEmDAyhnlPFTZgJA0OIhs71UchF2LWVUuIh1G9XURe6w0AJ9fUzV6G+BiE0XzNiwasd4msQwk3XNkoKOd5HCDE5OlppyiKMu7ZQWu1UmzZh0rWB0koYhLouuh9qL79bhPp3UqSbtgh1XrGVCqmE3Rxfq9WcRjjp2jolmlAI/0InbXfTJqFuhxV4OWTCv9FJW920QahrjK2tNZHwFU96IfohEQZdW6ZMAYFQt2NfsiIC4e9mGz5TPoGwa7sUCk+I5pLqqxGW8K/MFVetsYR/Y0Fzk4MjDKSDbIdZGEVRNoVvUObTLG8hnEnnx+8CDKFkJHiXVX3fs1JQE+mj8mCUSX7fNoZQ7mQ7bJUIiSfaXpqRTkyRjIgeVQoPQpnk0Xe0lswWKzR5Q8PxsUy65yNZsSKUOVO7INblCkQMfMeWoslkXFc9oiKUOPj9h7NuIOKcSUlp/+BGVcfBFSFaqcGrD4J5A5fXqc6JBfzwzKVqIFaE4NmQnNnJvaOmlNmBZ56qW5SEQ2hL1Dz5b64WviktwJeSZb8oCcGzoU+yrRCPt3mntgDe8JTOuSQEn1fQ63F5chzpNYTgbXl5flESQmdDVv0fO0+VlBdaCuoCyxmxJAQ2Q3MShdhxA2KC9l3gAGCTENoM87Kd4JPRwiez7Bzq5ScNQmiIhl4YdxUr8YGQ91oTdN8aNQhTYCvsSmPWhEGbKm6CZmSnDUJoT2Cax7SPpxobJqdOGAArzt/Y5rHOXDluuIAaF9QIoSsHnqvZ6JeA7DlagM5koxohNIkGu21qib6ypKxqK0E3UZsaIXRpRC1PVUaYAq3za4TQNKHXJpw+CF3o1RZIAtJTCKHf/5dbEYIjGAe2eYxFDXtJMxiAY4tmRUi4zY9DbPNYbprjDjawdcuKEB64Y1+Cw/r22Dd3wc/ew4owBbfB2hiw3TR9B30V/FgzrQjhYXhiFKqUx0qU2zIvqINHow4VIbgJ48RyFOxlM2sgBsglWPwqCWXS9Vg3brHXEqxuKpO0HN8JZc7v6WEkrnmIcUmQTGw/uhNKHY3SfSFP0JoUMr8JPpMZtw36lVDuQhaap+Bz9LQpx5Oy7XInlLvSg7K/YDrSm2juVO7bf78TSjirq8jOhnfLQnY2krURpxuhdK0aqdaff6mEKcgqJF2hZBaE8rX3+ItFRNaCeET5Uk+rIFRQMooJKnqpUAspZiwqSH8ZF4Qq8mim7YCSLbrlObT7eqyiemddEKpJZ0sbt2FC8jh/6oHFOFVilV8Qqqp0ckLLDALTXGaQO3av2mdL89qEFarKXpoWhEpzob5eoIWanCuhC/3GddDezQn/QiEQWXFO+FcS9PGa5IR6VzazZOWEupfF0rXJCdtXZf4tZTnh38lfx8nPCbu+kPS5uuSEr3Jl53O0GBgePVj6+vcP0C2cewYroe3VL5Fg2Tc0WLdenaJXrpydR6wQjMskNE6414S8iI4xM8bkGuwkhVMwfubLAeB6G3NE/EcGx6JtZ7qvOGn6Q557WGyDK6RvDizJkKNynSy+IGFkcEVpdhP0IvRulQ0GE66ZbM1HWITl4te5EPMj5g6Crg3e5OAxJID2HBVhOd4YaML7DO9JhMzp5/k6FSfrfDnyxvUZ8hdwFwnP3rrbsM5+XYSOuVOjf/KV95D7yuBp0fhw3d3s+LYuagyG3E/lPLxGExlr75rmt5O+4bqbvnq68Q1ifoMHt9M1l9+BlNkl0e+/RuC9+mzuPzm4d0KRMjO/PEEBVlFClZYhf8zrtUi6FcTd8rZc/m3wtsoOMde/NXkc1lU2w4j/IqvFreizzEwTOLyonfVZv7Fe9WsnNgJnkmXeZJV7J2Drez3JZ3xRetDQ0telfvo6ERj91cn5I7tQpPIpq59numP/OXPk3h/Xq4s9kZXx49a2Wv6kSPB73jzPHI4S1dX8TjJq1l3aIrGGmnn1DFFT5Do65NTXW65UXWe3XS3bh95CJ8KNd7E1c2CFHMcKzdoLrORDDnP7kViYdoUK2JrJK60sX6EUt12Cq9/1Yiv5dxaPQu7O/xIrxiUPDRNWeVhDrZzXdh6zKRQg3rWvYXxwutYm8R0e0z4dP9lYLjExCvMuWYoW7URANFObe19yU8jIMHUn1jKKsuwyK155fNdsdsmyKFpaE8bLrgPBDG20UAx3n7dgEPjI98ZTiCaCBaQzvvu881lcMAg8hb+9niZbMEtkjs3NItQTiBY+n0Lg2+uJMkPRLRrBJ5AqJlzhAuMp7yuIebQRTvJZkQY0uSbEFF1Vs+td+SV6HuSTuxCt6sUUeo7kyy0AGgp5ghVtiDDqehL+NbVaj8qfA7Mnzsk3MSuXlpyBKpWj8CrOFJEzs6qIozYrzjh2gDyViGJK2R/6lXFUEXMQ5rJZXuegchDeNGTFSHy+WZiPcHCFpA3+ZyxraENxzok3ECDMNUpIs5TqQXgTaShOE46ixUoihIPrBjDEUKqcCevCzIrTELN9pEqQsFAcZU59SXVgFtgB5dWH4snJIg7HgghCWMi0lmE6XRz2u88n7i0+d/vDYpqGSwu87gUT3uUFpmCvEVLeumwHkSV8ffWE+qsn1F89of7qCfVXT6i/ekL91RPqr55Qf/WE+qsn1F89of7qCfVXT6i/ekL99fcJ/wMdqLyEJmAkcgAAAABJRU5ErkJggg==" width="25px" height="auto"></a>
+                    <a href=""><img src="https://www.kafekorzo.cz/wp-content/uploads/2019/09/facebook-logo-korzo.png" width="25px" height="auto"></a>
+                    <a href=""><img src="https://w7.pngwing.com/pngs/389/430/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon.png" width="25px" height="auto"></a>
+                </div>
+               
+                <div style=" font-size: 14px; text-align: center; padding: 13px; text-decoration: none; color: white;" class="footerBottom">
+                    <a href="">Privacy Notice</a>
+                    <a href="">Terms of Service</a>
+                    <a href="">Company Information</a>
+                    <a href="">Cookie Preferences</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
