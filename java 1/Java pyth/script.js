@@ -23,15 +23,3 @@ function calculate() {
     document.getElementById("final").innerHTML = result
 }
 
-function checkAge() {
-const agenumber = parseInt(document.getElementById ("age").value)
-
-if (agenumber <=0) {
-    console.log("Neplatný input")
-} else if (agenumber < 18) {
-    console.log("Nedostatečný věk")
-} else if (agenumber >=18) {
-    console.log("Přístup povolen")
-}
-
-}
