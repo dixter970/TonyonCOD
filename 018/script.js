@@ -1,14 +1,11 @@
-const list = []
+const ITEMS_CONTAINER = document.getElementById("items")
+const ITEM_TEMPLATE = document.getElementById("itemTemplate")
+const ADD_BUTTON = document.getElementById("add")
 
-function listAdd() {
-    const item = document.getElementById("input").value
+function getItems() {
+    const value = localStorage.getItem("todo-test") || "[]";
 
-    list.push(item)
-    document.getElementById("list").innerHTML = list;
-
-
+    console.log(value);
 }
-function deleteItem() {
-    const 
-    
-    }
+
+getItems();

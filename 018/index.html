@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <input id="input">
 
-    <button onclick="listAdd()">Vložit</button>
-    <button onclick="deletItem()"> smazat</button>
-    <br><br>
-    <ul>
-        <li id="list">
-
-        </li>
-    </ul>
-    
+  
+    <div id="items" > </div>
+    <template id="itemTemplate">
+        <div class="item">
+            <input type="checkbox" class="item-complete">
+            <input type="text" class="item-description" placeholder="To-Do item...">
+        </div>
+    </template>
+    <button id="add">Add Item</button>
 </body>
+
 </html>
