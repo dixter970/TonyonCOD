@@ -12,10 +12,17 @@ let quotes = [
 "Nenáviděl jsem každou minutu tréninku, ale vždy jsem si říkal: Teď protrpíš trénink a žij zbytek života jako mistr.",
 "Mnoho životních zklamání je od lidí, co nezjistili, jak blízko byli úspěchu, kdyby to nevzdali.",
 "Když něco opravdu chceš, celý vesmír se spojí, abys to mohl uskutečnit.",
-"Giving up is gay/ sensei WU"
+"Giving up is gay/ sensei WU", "nword is for gay/ Radek"
 ];
 btn.addEventListener("click", function() {
     var randomQuote = quotes[Math.floor(Math.random()* quotes.length)]
     output.innerHTML = randomQuote;
     
+    if (randomQuote == last) {
+        return;
+    } else {
+        last.length = 0;
+        document.getElementById("text").innerHTML = randomQuote;
+        last.push(randomQuote);
+    }
 })
