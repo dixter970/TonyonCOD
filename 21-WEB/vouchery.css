@@ -1,0 +1,26 @@
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-left: 15px;
+    }
+    
+    .navbar a:hover{
+        color: red;
+    }
+    
+    .navlinks {
+    margin-top: 5px;
+    }
+    .cards{
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+  }
