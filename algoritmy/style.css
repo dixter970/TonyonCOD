@@ -1,0 +1,11 @@
+.body{
+    margin: 0px;
+}
+ 
+.pageContainer{
+    margin-block: .625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
