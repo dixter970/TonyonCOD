@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    
+    background: linear-gradient(to right top, #112416, #134823, #0f6f2f, #059838, #00c33e, #0dc33d, #16c33b, #1dc33a, #239833, #236f2b, #1f4822, #172417) no-repeat center/cover fixed;
+   }
+
+   .hero {
+    background: url('background-image.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+   }
+   .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+   }
+   .explore-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+   }
+   .explore-btn:hover {
+    background: #d00;
+   }
+   .footer{
+  color:white ;
+   }
