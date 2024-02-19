@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanční aplikace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h2>Převodník měn</h2>
+        <label for="sourceCurrency">Zdrojová měna:</label>
+        <select id="sourceCurrency">
+
+        </select>
+        <label for="targetCurrency">Cílová měna:</label>
+        <select id="targetCurrency">
+
+        </select>
+        <label for="amount">Částka:</label>
+        <input type="number" id="amount">
+        <button onclick="convertCurrency()">Převést</button>
+        <p id="result"></p>
+    </div>
+    <div class="calculator">
+        <h2>Kalkulačka spoření/investic</h2>
+
+    </div>
+    <div class="vat">
+        <h2>Výpočet DPH</h2>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

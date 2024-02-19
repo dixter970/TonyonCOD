@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+ }
+ .converter,
+ .calculator,
+ .vat {
+    margin-bottom: 20px;
+ }
+ .converter,
+ .calculator,
+ .vat {
+    border: 1px solid #ccc;
+    padding: 20px;
+ }
+ button {
+    padding: 5px 10px;
+    cursor: pointer;
+ }
