@@ -12,3 +12,11 @@ function appendToDisplay(value) {
  function clearDisplay() {
     document.getElementById('display').value = '';
  }
+
+ do{
+    var email = prompt("jaký je email?");
+    var email = prompt("jaký je heslo?");
+
+ }while(password !== "heslo" && email !== "Tony"){
+    alert("spravně")
+ }
